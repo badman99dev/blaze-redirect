@@ -1,1 +1,6 @@
+# Android App Links verification — must be served as-is (200 + application/json),
+# never redirected, otherwise Android cannot verify the app for this host.
+/.well-known/assetlinks.json  /well-known/assetlinks.json  200
+
+# Everyone else (no app installed) → download page.
 /*  https://blazemovies.bkstudy8565.workers.dev/apps  301!

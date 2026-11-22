@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.blazemovies.app",
+      "sha256_cert_fingerprints": [
+        "98:7B:61:E6:E2:4C:66:2E:BA:B3:97:74:24:CE:BE:18:E8:83:A1:6F:DC:E4:8D:30:A6:44:94:41:9E:DB:83:01"
+      ]
+    }
+  }
+]
